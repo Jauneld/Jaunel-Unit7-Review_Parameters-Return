@@ -1,0 +1,302 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+  
+}
+
+.banner{
+  background-color: rgba(231,70,69,0.5);
+  margin: 15px;
+  padding: 15px;
+  border: 5px dashed orchid;
+  box-shadow: 5px 5px 5px 5px gray;
+  outline: 10px 10px 3px honeydew ;
+  text-transform: uppercase;
+  text-shadow: 1px 1px blanchedalmond;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align:right;
+  height: 150px;
+  
+}
+
+h1{
+  font-size: 0.7em;
+}
+
+body{
+  background-color:rgb(43, 52, 103);
+}
+
+#logo{
+  width:60px;
+  position: absolute;
+  top: 75px;
+  right: 200px;
+}
+
+.container{
+  border: 2px greenyellow dashed;
+  position: relative;
+  top: 4px;
+  margin: 20px;
+  width: 1200px;
+  left:250px;
+  padding: 10px;
+  height: 700px;
+  overflow: hidden;
+  background-color: #EB455F;
+}
+
+.wave{
+  text-align: center;
+  font-family: URW Chancery L, cursive;
+  font-stretch: semi-expanded;
+   background-color:#FCFFE7
+;
+  font-size: 12px;
+  height: 23px;
+  overflow: hidden;
+  width: 90%;
+  position: relative;
+  left: 5%;
+  right: 10%;
+  transition: height 3s;
+  display: block;
+}
+
+.wave:hover{
+  height: 700px;
+  z-index: 1;
+}
+#l1{
+  border: pink 2px solid; 
+ 
+}
+#l1:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l2a{
+  border: white 2px solid;}
+#l2a:hover{
+  height: 700px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l2b{
+  border: white 2px solid;}
+#l2b:hover{
+  height: 700px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l3{
+  border: pink 2px solid; 
+}
+#l3:hover{
+  height: 700px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l4{
+  border: pink 2px solid; 
+}
+#l4:hover{
+  height: 700px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l5{
+  border: pink 2px solid; 
+}
+#l5:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l6{
+  border: pink 2px solid; 
+}
+#l6:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l7{
+  border: pink 2px solid; 
+}
+#l7:hover{
+  height: 900px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l8{
+  border: pink 2px solid; 
+}
+#l8:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l9{
+  border: pink 2px solid; 
+}
+#l9:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l10{
+  border: pink 2px solid; 
+}
+#l10:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l11{
+  border: pink 2px solid; 
+}
+#l11:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l12{
+  border: pink 2px solid; 
+}
+#l12:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+#l13-17{
+  border: pink 2px solid; 
+}
+#l13-17:hover{
+  height: 400px;
+  top: 1px;
+  z-index: 1;
+}
+
+
+
+.menu{
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  text-shadow: 3px 2px black;
+  font-style: oblique;
+  overflow: hidden;
+  width: 100px;
+}
+
+.menu a{
+  color:yellow;
+  background-color: crimson;
+  text-shadow: 0px 0px;
+  font-size: 0.6em;
+  border: solid yellow ;
+  display: none;
+}
+
+.menu:hover a{
+  display: block;
+};
+
+.menu a:hover{
+    color:crimson;
+  background-color: yellow;
+  };
+
+.left{
+background-color:goldenrod;
+position: absolute;
+left: 10px;
+border: 1px solid black;
+top: 10px;
+color: white;
+}
+  
+
+iframe{
+  width: 400px;
+  height: 630px;  
+  border: 0px;
+  background-color: black;
+  margin: 10px;
+}
+.right{
+  background-color: red;
+  position: absolute;
+  right: 100px;
+  border: 1px solid black;
+  top: 50px;
+  width: 550px;
+  
+}
+
+.Codepics{
+  width:500px;
+  right: 100px;
+}
+
+.headings{
+  text-transform: uppercase;
+  text-shadow: 1px 1px blanchedalmond;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: lightcoral;
+  font-size: 20px;
+}
+
+  video{
+    height: 600px;
+   
+  }
+embed{
+  width: 90%;
+  height:700px;
+  top: 500px;
+}
+
+.Apppics{
+  width:200px;
+  border: 3px solid black;  
+}
+
+.thepics{
+  width:250px;
+  border: 3px solid black;  
+}
+
+.Q1-2pics{
+  width:700px;
+  border: 3px solid black;  
+}
+
+.pics{
+  width: 400px;
+  border: 3px solid black;
+}
